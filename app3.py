@@ -1,7 +1,6 @@
 from flask import Flask,request,render_template,make_response,send_file
 import os
 import pandas as pd
-import matplotlib.pylab as plt
 import scipy.cluster.hierarchy as sch
 from scipy.cluster.hierarchy import linkage
 from sklearn.cluster import AgglomerativeClustering
